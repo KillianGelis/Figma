@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="accueil-tablette-div">
+      <div class="rectangle-div" data-scroll-to="rectangleRectangle"></div>
+      <img
+        class="b18ffcf9303ebb7323ff13be9078e0-icon"
+        alt=""
+        src="public/79b18ffcf9303ebb7323ff13be9078e0-1@2x.png"
+      /><img class="arrow-3-icon" alt="" src="public/arrow-3@2x.png" /><img
+        class="arrow-3-icon1"
+        alt=""
+        src="public/arrow-31@2x.png"
+      /><img class="croix-icon" alt="" src="public/croix@2x.png" /><img
+        class="maison-icon"
+        alt=""
+        src="public/maison@2x.png"
+      /><img class="rectangle-icon" alt="" src="public/rectangle-7.svg" />
+      <div class="rectangle-div1"></div>
+      <img class="loupe-icon" alt="" src="public/loupe@2x.png" />
+      <div class="accueil-div1" id="accueilText">Accueil</div>
+      <div class="la-formation-div1" id="laFormationText">La formation</div>
+      <div class="tmoignages-div1" id="tmoignagesText">Témoignages</div>
+      <div class="nos-rfrences-div1" id="nosRfrencesText">Nos références</div>
+      <div class="contactez-nous-div1" id="contactezNousText">
+        Contactez-nous
+      </div>
+      <div class="devenez-dveloppeur-web">Devenez développeur web</div>
+      <div class="une-formation-gratuite-et-rmu">
+        Une formation gratuite et rémunérée pour les demandeurs d’emploi
+      </div>
+      <div class="rectangle-div2"></div>
+      <div class="httpswwwformationdwwmafpa-div">
+        https://www.formationDWWM.afpa.fr
+      </div>
+      <div class="rectangle-div3" id="rectangleRectangle2"></div>
+      <div class="je-dcouvre-la-formation">Je découvre la formation</div>
+      <img
+        class="logo-afpa-vert-png-2-icon"
+        alt=""
+        src="public/logoafpavertpng-2@2x.png"
+      />
+    </div>
+
+    <script>
+      var accueilText = document.getElementById("accueilText");
+      if (accueilText) {
+        accueilText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='rectangleRectangle']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var laFormationText = document.getElementById("laFormationText");
+      if (laFormationText) {
+        laFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m-tablette.html";
+        });
+      }
+      
+      var tmoignagesText = document.getElementById("tmoignagesText");
+      if (tmoignagesText) {
+        tmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignages-tablette.html";
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences-tablette.html";
+        });
+      }
+      
+      var contactezNousText = document.getElementById("contactezNousText");
+      if (contactezNousText) {
+        contactezNousText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences-tablette.html";
+        });
+      }
+      
+      var rectangleRectangle2 = document.getElementById("rectangleRectangle2");
+      if (rectangleRectangle2) {
+        rectangleRectangle2.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m-tablette.html";
+        });
+      }
+      </script>
+  </body>
+</html>

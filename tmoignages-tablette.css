@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.rectangle-div21 {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 70px;
+}
+.arrow-6-icon,
+.arrow-7-icon,
+.croix-icon6,
+.maison-icon6 {
+  position: absolute;
+  top: 18px;
+  left: 4px;
+  width: 33.03px;
+  height: 30.03px;
+  object-fit: cover;
+}
+.arrow-7-icon,
+.croix-icon6,
+.maison-icon6 {
+  left: 37px;
+  width: 33px;
+  height: 30px;
+}
+.croix-icon6,
+.maison-icon6 {
+  top: 22px;
+  left: 70px;
+  width: 23px;
+  height: 22px;
+}
+.maison-icon6 {
+  top: 18px;
+  left: 99px;
+  width: 30px;
+  height: 30px;
+}
+.rectangle-div22,
+.rectangle-icon4 {
+  position: absolute;
+  top: 21px;
+  left: 145px;
+  border-radius: 2px;
+  width: 571px;
+  height: 24px;
+}
+.rectangle-div22 {
+  left: 730px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 89px;
+}
+.loupe-icon6 {
+  position: absolute;
+  top: 23px;
+  left: 732px;
+  width: 17px;
+  height: 20px;
+  object-fit: cover;
+}
+.accueil-div6 {
+  position: absolute;
+  top: 123px;
+  left: 147px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div10,
+.line-div11,
+.line-div12,
+.line-div13 {
+  position: absolute;
+  top: 116.5px;
+  left: 208.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.line-div11,
+.line-div12,
+.line-div13 {
+  left: 320.5px;
+}
+.line-div12,
+.line-div13 {
+  left: 437.5px;
+}
+.line-div13 {
+  left: 557.5px;
+}
+.contactez-nous-div5,
+.la-formation-div5,
+.nos-rfrences-div5,
+.tmoignages-div6 {
+  position: absolute;
+  top: 123px;
+  left: 229px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div5,
+.nos-rfrences-div5,
+.tmoignages-div6 {
+  left: 341px;
+}
+.contactez-nous-div5,
+.nos-rfrences-div5 {
+  left: 453px;
+}
+.contactez-nous-div5 {
+  left: 576px;
+}
+.les-stagiaires-tmoignent {
+  position: absolute;
+  top: 244px;
+  left: 37px;
+  font-size: 36px;
+  color: #000;
+  display: inline-block;
+}
+.rectangle-div23 {
+  position: absolute;
+  top: 1163px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 27px;
+}
+.httpswwwformationdwwmafpa-div5 {
+  position: absolute;
+  top: 21px;
+  left: 146px;
+  font-size: 20px;
+  color: #000;
+  display: inline-block;
+  width: 568px;
+}
+.rectangle-div24 {
+  position: absolute;
+  top: 309px;
+  left: 35px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 327px;
+  height: 394px;
+}
+.rectangle-icon5 {
+  position: absolute;
+  top: 330px;
+  left: 85px;
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+.jessie-p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p {
+  margin: 0;
+}
+.jessie-sbire-team-rocket-div {
+  position: absolute;
+  top: 497px;
+  left: 60px;
+  font-size: 20px;
+  color: #000;
+  display: inline-block;
+  width: 216px;
+  height: 195px;
+}
+.rectangle-div25 {
+  position: absolute;
+  top: 309px;
+  left: 459px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 327px;
+  height: 394px;
+}
+.rectangle-icon6 {
+  position: absolute;
+  top: 330px;
+  left: 509px;
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+.rectangle-div26 {
+  position: absolute;
+  top: 748px;
+  left: 251px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 327px;
+  height: 394px;
+}
+.rectangle-icon7 {
+  position: absolute;
+  top: 769px;
+  left: 301px;
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+.james-sbire-team-rocket-div,
+.miaouss-sbire-team-rocket-div {
+  position: absolute;
+  top: 499px;
+  left: 490px;
+  font-size: 20px;
+  color: #000;
+  display: inline-block;
+  width: 216px;
+  height: 195px;
+}
+.miaouss-sbire-team-rocket-div {
+  top: 936px;
+  left: 279px;
+}
+.logo-afpa-vert-png-5-icon1 {
+  position: absolute;
+  top: 80px;
+  left: 5px;
+  width: 130px;
+  height: 73px;
+  object-fit: cover;
+}
+.tmoignages-tablette-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1194px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #497cff;
+  font-family: Inter;
+}

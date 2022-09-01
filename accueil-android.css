@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.barre-du-haut {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 44px;
+}
+.b18ffcf9303ebb7323ff13be9078e0-icon1 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 360px;
+  height: 739px;
+  object-fit: cover;
+}
+.arrow-3-icon2,
+.arrow-3-icon3,
+.croix-icon1,
+.maison-icon1 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 22px;
+  height: 23.01px;
+  object-fit: cover;
+}
+.arrow-3-icon3,
+.croix-icon1,
+.maison-icon1 {
+  left: 22px;
+  width: 24px;
+  height: 23px;
+}
+.croix-icon1,
+.maison-icon1 {
+  top: 12px;
+  left: 49px;
+  width: 15px;
+  height: 17px;
+}
+.maison-icon1 {
+  top: 8px;
+  left: 67px;
+  width: 25px;
+  height: 24px;
+}
+.barre-recherche-icon {
+  position: absolute;
+  top: 12px;
+  left: 101px;
+  border-radius: 2px;
+  width: 182px;
+  height: 21px;
+}
+.httpswwwformationdwwmafpa-div1 {
+  position: absolute;
+  top: 15px;
+  left: 103px;
+  color: #000;
+  display: inline-block;
+  width: 178px;
+  height: 17px;
+}
+.rectangle-div4 {
+  position: absolute;
+  top: 12px;
+  left: 290px;
+  border-radius: 2px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 56px;
+  height: 20px;
+}
+.loupe-icon1 {
+  position: absolute;
+  top: 15px;
+  left: 292px;
+  width: 13px;
+  height: 14px;
+  object-fit: cover;
+}
+.devenez-dveloppeur-web1,
+.une-formation-gratuite-et-rmu1 {
+  position: absolute;
+  top: 186px;
+  left: 26px;
+  font-size: 24px;
+  font-weight: 500;
+  display: inline-block;
+  width: 309px;
+  height: 20px;
+}
+.une-formation-gratuite-et-rmu1 {
+  top: 243px;
+  left: 22px;
+  font-size: 15px;
+  width: 345px;
+  height: 34px;
+}
+.rectangle-div5 {
+  position: absolute;
+  top: 777px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 25px;
+}
+.rectangle-div6 {
+  position: absolute;
+  top: 535px;
+  left: 71px;
+  border-radius: 50px;
+  background-color: #2c9200;
+  width: 210px;
+  height: 35px;
+  cursor: pointer;
+}
+.je-dcouvre-la-formation1 {
+  position: absolute;
+  top: 541px;
+  left: 55px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 242px;
+  height: 22px;
+}
+.logo-afpa-vert-png-2-icon1,
+.menu-1-icon {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 127px;
+  height: 65px;
+  object-fit: cover;
+}
+.menu-1-icon {
+  top: 110px;
+  left: 11px;
+  width: 38px;
+  height: 34px;
+}
+.accueil-android-div {
+  position: relative;
+  background-color: #fff;
+  width: 360px;
+  height: 800px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 10px;
+  color: #fff;
+  font-family: Inter;
+}

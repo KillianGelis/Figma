@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./accueil.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="accueil-div2">
+      <div class="rectangle-div7" data-scroll-to="rectangleRectangle1"></div>
+      <img
+        class="b18ffcf9303ebb7323ff13be9078e0-icon2"
+        alt=""
+        src="public/79b18ffcf9303ebb7323ff13be9078e0-12@2x.png"
+      />
+      <div class="rectangle-div8"></div>
+      <img class="rectangle-icon1" alt="" src="public/rectangle-2.svg" />
+      <div class="rectangle-div9"></div>
+      <div class="httpswwwformationdwwmafpa-div2">
+        https://www.formationDWWM.afpa.fr
+      </div>
+      <img class="arrow-1-icon" alt="" src="public/arrow-31@2x.png" /><img
+        class="arrow-2-icon"
+        alt=""
+        src="public/arrow-3@2x.png"
+      /><img class="croix-icon2" alt="" src="public/croix@2x.png" /><img
+        class="maison-icon2"
+        alt=""
+        src="public/maison@2x.png"
+      /><img class="loupe-icon2" alt="" src="public/loupe@2x.png" />
+      <div class="accueil-div3">Accueil</div>
+      <img class="line-icon" alt="" src="public/line-1.svg" id="lineIcon" />
+      <div class="la-formation-div2" id="laFormationText">La formation</div>
+      <div class="line-div"></div>
+      <div class="tmoignages-div2" id="tmoignagesText">Témoignages</div>
+      <img class="line-icon1" alt="" src="public/line-1.svg" />
+      <div class="nos-rfrences-div2" id="nosRfrencesText">Nos références</div>
+      <div class="line-div1"></div>
+      <div class="contactez-nous-div2">Contactez-nous</div>
+      <div class="une-formation-gratuite-et-rmu2">
+        Une formation gratuite et rémunérée pour les demandeurs d’emploi
+      </div>
+      <div class="rectangle-div10"></div>
+      <div class="devenez-dveloppeur-web2">Devenez développeur web</div>
+      <div class="rectangle-div11" id="rectangleRectangle3"></div>
+      <div class="je-dcouvre-la-formation2">Je découvre la formation</div>
+      <img
+        class="logo-afpa-vert-png-1-icon"
+        alt=""
+        src="public/logoafpavertpng-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var lineIcon = document.getElementById("lineIcon");
+      if (lineIcon) {
+        lineIcon.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='rectangleRectangle1']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var laFormationText = document.getElementById("laFormationText");
+      if (laFormationText) {
+        laFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m.html";
+        });
+      }
+      
+      var tmoignagesText = document.getElementById("tmoignagesText");
+      if (tmoignagesText) {
+        tmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignages.html";
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences.html";
+        });
+      }
+      
+      var rectangleRectangle3 = document.getElementById("rectangleRectangle3");
+      if (rectangleRectangle3) {
+        rectangleRectangle3.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m.html";
+        });
+      }
+      </script>
+  </body>
+</html>

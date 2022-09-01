@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div12 {
+  position: absolute;
+  top: 1px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 70px;
+}
+.arrow-4-icon,
+.arrow-5-icon,
+.croix-icon3,
+.maison-icon3 {
+  position: absolute;
+  top: 21px;
+  left: 4px;
+  width: 33.03px;
+  height: 30.03px;
+  object-fit: cover;
+}
+.arrow-5-icon,
+.croix-icon3,
+.maison-icon3 {
+  left: 37px;
+  width: 33px;
+  height: 30px;
+}
+.croix-icon3,
+.maison-icon3 {
+  top: 25px;
+  left: 70px;
+  width: 23px;
+  height: 22px;
+}
+.maison-icon3 {
+  top: 21px;
+  left: 99px;
+  width: 30px;
+  height: 30px;
+}
+.rectangle-div13,
+.rectangle-icon2 {
+  position: absolute;
+  top: 24px;
+  left: 145px;
+  border-radius: 2px;
+  width: 571px;
+  height: 24px;
+}
+.rectangle-div13 {
+  left: 730px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 89px;
+}
+.loupe-icon3 {
+  position: absolute;
+  top: 26px;
+  left: 732px;
+  width: 17px;
+  height: 20px;
+  object-fit: cover;
+}
+.accueil-div4 {
+  position: absolute;
+  top: 126px;
+  left: 160px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #497cff;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div2,
+.line-div3,
+.line-div4,
+.line-div5 {
+  position: absolute;
+  top: 119.5px;
+  left: 217.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.line-div3,
+.line-div4,
+.line-div5 {
+  left: 330.5px;
+}
+.line-div4,
+.line-div5 {
+  left: 440.5px;
+}
+.line-div5 {
+  left: 564.5px;
+}
+.contactez-nous-div3,
+.la-formation-div3,
+.nos-rfrences-div3,
+.tmoignages-div3 {
+  position: absolute;
+  top: 126px;
+  left: 241px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #497cff;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div3,
+.nos-rfrences-div3,
+.tmoignages-div3 {
+  left: 347px;
+}
+.contactez-nous-div3,
+.nos-rfrences-div3 {
+  left: 459px;
+}
+.contactez-nous-div3 {
+  left: 587px;
+}
+.la-formation-dwwm {
+  position: absolute;
+  top: 247px;
+  left: 37px;
+  font-size: 36px;
+  display: inline-block;
+}
+.rectangle-div14 {
+  position: absolute;
+  top: 1166px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 27px;
+}
+.httpswwwformationdwwmafpa-div3 {
+  position: absolute;
+  top: 24px;
+  left: 146px;
+  display: inline-block;
+  width: 568px;
+}
+.le-mtier-div {
+  position: absolute;
+  top: 314px;
+  left: 40px;
+  display: inline-block;
+}
+.le-dveloppeur-web {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.demande-diu-client {
+  margin: 0;
+}
+.le-dveloppeur-web-la-dvelo {
+  position: absolute;
+  top: 342px;
+  left: 40px;
+  font-size: 12px;
+  display: inline-block;
+}
+.qualification-div,
+.titre-professionnel-de-niveau {
+  position: absolute;
+  top: 406px;
+  left: 40px;
+  display: inline-block;
+}
+.titre-professionnel-de-niveau {
+  top: 434px;
+  left: 42px;
+  font-size: 13px;
+}
+.admission-div,
+.prrequis-tre-titulaire-du-b {
+  position: absolute;
+  top: 470px;
+  left: 42px;
+  display: inline-block;
+}
+.prrequis-tre-titulaire-du-b {
+  top: 498px;
+  left: 41px;
+  font-size: 13px;
+}
+.les-modalits-pdagogiques,
+.selon-les-tablissements-et-la {
+  position: absolute;
+  top: 695px;
+  left: 41px;
+  display: inline-block;
+}
+.selon-les-tablissements-et-la {
+  top: 723px;
+  font-size: 13px;
+}
+.dure-div,
+.mois-environ-1-190-heures {
+  position: absolute;
+  top: 807px;
+  left: 41px;
+  display: inline-block;
+}
+.mois-environ-1-190-heures {
+  top: 835px;
+  font-size: 13px;
+}
+.notre-pdagogie-div,
+.notre-pdagogie-privilgie-la {
+  position: absolute;
+  top: 887px;
+  left: 42px;
+  display: inline-block;
+}
+.notre-pdagogie-privilgie-la {
+  top: 915px;
+  font-size: 13px;
+}
+.logo-afpa-vert-png-3-icon {
+  position: absolute;
+  top: 79px;
+  left: 0;
+  width: 166px;
+  height: 83px;
+  object-fit: cover;
+}
+.formation-dwwm-tablette {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1194px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}

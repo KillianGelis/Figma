@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./tmoignages.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tmoignages-div7">
+      <div class="tmoignages-div8" data-scroll-to="tmoignages"></div>
+      <img
+        class="logo-afpa-vert-png-5-icon2"
+        alt=""
+        src="public/logoafpavertpng-5@2x.png"
+      />
+      <div class="rectangle-div33"></div>
+      <img class="arrow-9-icon" alt="" src="public/arrow-3@2x.png" /><img
+        class="arrow-11-icon"
+        alt=""
+        src="public/arrow-31@2x.png"
+      /><img class="croix-1-icon" alt="" src="public/croix@2x.png" /><img
+        class="maison-1-icon"
+        alt=""
+        src="public/maison@2x.png"
+      />
+      <div class="rectangle-div34"></div>
+      <div class="httpswwwformationdwwmafpa-div7">
+        https://www.formationDWWM.afpa.fr/Temoignages.html
+      </div>
+      <div class="rectangle-div35"></div>
+      <img class="loupe-1-icon" alt="" src="public/loupe@2x.png" />
+      <div class="accueil-div7" id="accueilText">Accueil</div>
+      <div class="line-div14"></div>
+      <div class="line-div15"></div>
+      <div class="line-div16"></div>
+      <div class="line-div17"></div>
+      <div class="la-formation-div6" id="laFormationText">La formation</div>
+      <div class="tmoignages-div9" id="tmoignagesText">Témoignages</div>
+      <div class="nos-rfrences-div6" id="nosRfrencesText">Nos références</div>
+      <div class="contactez-nous-div6">Contactez-nous</div>
+      <div class="les-stagiaires-tmoignent2">Les stagiaires témoignent</div>
+      <div class="rectangle-div36"></div>
+      <img class="rectangle-icon11" alt="" src="public/rectangle-43@2x.png" />
+      <div class="rectangle-div37"></div>
+      <img class="rectangle-icon12" alt="" src="public/rectangle-45@2x.png" />
+      <div class="rectangle-div38"></div>
+      <img class="rectangle-icon13" alt="" src="public/rectangle-47@2x.png" />
+      <div class="rectangle-div39"></div>
+      <div class="jessie-sbire-team-rocket-div2">
+        <p class="jessie-p2">Jessie</p>
+        <p class="jessie-p2">Sbire</p>
+        <p class="jessie-p2">Team Rocket</p>
+        <p class="p6">"”</p>
+      </div>
+      <div class="james-sbire-team-rocket-div2">
+        <p class="jessie-p2">James</p>
+        <p class="jessie-p2">Sbire</p>
+        <p class="jessie-p2">Team Rocket</p>
+        <p class="p6">"”</p>
+      </div>
+      <div class="miaouss-sbire-team-rocket-div2">
+        <p class="jessie-p2">Miaouss</p>
+        <p class="jessie-p2">Sbire</p>
+        <p class="jessie-p2">Team Rocket</p>
+        <p class="p6">"”</p>
+      </div>
+    </div>
+
+    <script>
+      var accueilText = document.getElementById("accueilText");
+      if (accueilText) {
+        accueilText.addEventListener("click", function (e) {
+          window.location.href = "./accueil.html";
+        });
+      }
+      
+      var laFormationText = document.getElementById("laFormationText");
+      if (laFormationText) {
+        laFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m.html";
+        });
+      }
+      
+      var tmoignagesText = document.getElementById("tmoignagesText");
+      if (tmoignagesText) {
+        tmoignagesText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='tmoignages']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences.html";
+        });
+      }
+      </script>
+  </body>
+</html>

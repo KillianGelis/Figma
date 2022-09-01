@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.barre-du-haut1 {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 44px;
+}
+.arrow-4-icon1,
+.arrow-4-icon2,
+.croix-icon4,
+.maison-icon4 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 22px;
+  height: 23.01px;
+  object-fit: cover;
+}
+.arrow-4-icon2,
+.croix-icon4,
+.maison-icon4 {
+  left: 22px;
+  width: 24px;
+  height: 23px;
+}
+.croix-icon4,
+.maison-icon4 {
+  top: 12px;
+  left: 46px;
+  width: 15px;
+  height: 17px;
+}
+.maison-icon4 {
+  top: 8px;
+  left: 66px;
+  width: 25px;
+  height: 24px;
+}
+.barre-recherche-icon1 {
+  position: absolute;
+  top: 10px;
+  left: 101px;
+  border-radius: 2px;
+  width: 182px;
+  height: 21px;
+}
+.httpswwwformationdwwmafpa-div4 {
+  position: absolute;
+  top: 14px;
+  left: 103px;
+  font-size: 10px;
+  display: inline-block;
+}
+.rectangle-div15 {
+  position: absolute;
+  top: 12px;
+  left: 292px;
+  border-radius: 2px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 56px;
+  height: 20px;
+}
+.loupe-icon4 {
+  position: absolute;
+  top: 15px;
+  left: 294px;
+  width: 13px;
+  height: 14px;
+  object-fit: cover;
+}
+.la-formation-dwwm1,
+.le-mtier-div1 {
+  position: absolute;
+  left: 5px;
+  display: inline-block;
+}
+.la-formation-dwwm1 {
+  top: 158px;
+  font-size: 21px;
+  font-weight: 500;
+  width: 240px;
+  height: 29px;
+}
+.le-mtier-div1 {
+  top: 187px;
+  width: 89px;
+  height: 20px;
+}
+.le-dveloppeur-web1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.demande-du-client {
+  margin: 0;
+}
+.le-dveloppeur-web-la-dvelo1 {
+  position: absolute;
+  top: 207px;
+  left: 5px;
+  font-size: 9px;
+  display: inline-block;
+  width: 344px;
+}
+.qualification-div1,
+.titre-professionnel-de-niveau1 {
+  position: absolute;
+  top: 249px;
+  left: 5px;
+  display: inline-block;
+}
+.titre-professionnel-de-niveau1 {
+  top: 270px;
+  left: 6px;
+  font-size: 9px;
+  width: 300px;
+}
+.admission-div1,
+.prrequis-tre-titulaire-du-b1 {
+  position: absolute;
+  top: 292px;
+  left: 6px;
+  display: inline-block;
+}
+.prrequis-tre-titulaire-du-b1 {
+  top: 311px;
+  font-size: 9px;
+  width: 332px;
+}
+.rectangle-div16 {
+  position: absolute;
+  top: 38px;
+  left: -2px;
+  background-color: rgba(182, 248, 151, 0.27);
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 82px;
+}
+.les-modalits-pdagogiques1,
+.selon-les-tablissements-et-la1 {
+  position: absolute;
+  top: 445px;
+  left: 6px;
+  display: inline-block;
+}
+.selon-les-tablissements-et-la1 {
+  top: 465px;
+  font-size: 9px;
+  width: 277px;
+}
+.dure-div1,
+.mois-environ-1-190-heures1 {
+  position: absolute;
+  top: 533px;
+  left: 6px;
+  display: inline-block;
+}
+.mois-environ-1-190-heures1 {
+  top: 554px;
+  left: 7px;
+  font-size: 9px;
+  width: 249px;
+}
+.notre-pdagogie-div1,
+.notre-pdagogie-privilgie-la1 {
+  position: absolute;
+  top: 609px;
+  left: 6px;
+  display: inline-block;
+}
+.notre-pdagogie-privilgie-la1 {
+  top: 630px;
+  left: 8px;
+  font-size: 9px;
+  width: 330px;
+  height: 100px;
+}
+.rectangle-div17 {
+  position: absolute;
+  top: 781px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 26px;
+}
+.logo-afpa-vert-png-4-icon,
+.menu-2-icon1 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 130px;
+  height: 73px;
+  object-fit: cover;
+}
+.menu-2-icon1 {
+  top: 124px;
+  left: 3px;
+  width: 38px;
+  height: 34px;
+}
+.formation-dwwm-android {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Inter;
+}
+.accueil-div {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  color: #070707;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div,
+.la-formation-div,
+.nos-rfrences-div,
+.tmoignages-div {
+  position: absolute;
+  top: 78px;
+  left: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div,
+.nos-rfrences-div,
+.tmoignages-div {
+  top: 145px;
+}
+.contactez-nous-div,
+.nos-rfrences-div {
+  top: 206px;
+}
+.contactez-nous-div {
+  top: 273px;
+  width: 183px;
+  height: 27px;
+}
+.menu-2-icon {
+  position: absolute;
+  top: 6px;
+  left: 180px;
+  width: 38px;
+  height: 34px;
+  object-fit: cover;
+}
+.menu-burger-div {
+  position: relative;
+  background-color: #8ffb86;
+  width: 226px;
+  height: 741px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.accueil-div {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  color: #070707;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div,
+.la-formation-div,
+.nos-rfrences-div,
+.tmoignages-div {
+  position: absolute;
+  top: 78px;
+  left: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div,
+.nos-rfrences-div,
+.tmoignages-div {
+  top: 145px;
+}
+.contactez-nous-div,
+.nos-rfrences-div {
+  top: 206px;
+}
+.contactez-nous-div {
+  top: 273px;
+  width: 183px;
+  height: 27px;
+}
+.menu-2-icon {
+  position: absolute;
+  top: 6px;
+  left: 180px;
+  width: 38px;
+  height: 34px;
+  object-fit: cover;
+}
+.menu-burger-div {
+  position: relative;
+  background-color: #8ffb86;
+  width: 226px;
+  height: 741px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}

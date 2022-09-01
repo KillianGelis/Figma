@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./rfrences.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rfrences-div">
+      <div class="references-div" data-scroll-to="rEFERENCES"></div>
+      <div class="rectangle-div48"></div>
+      <img class="rectangle-icon15" alt="" src="public/rectangle-2.svg" />
+      <div class="rectangle-div49"></div>
+      <div class="httpswwwformationdwwmafpa-div10">
+        https://www.formationDWWM.afpa.fr/References.html
+      </div>
+      <img class="arrow-7-icon2" alt="" src="public/arrow-31@2x.png" /><img
+        class="arrow-8-icon2"
+        alt=""
+        src="public/arrow-3@2x.png"
+      /><img class="croix-icon10" alt="" src="public/croix@2x.png" /><img
+        class="maison-icon10"
+        alt=""
+        src="public/maison@2x.png"
+      /><img class="loupe-icon10" alt="" src="public/loupe@2x.png" />
+      <div class="accueil-div9" id="accueilText">Accueil</div>
+      <div class="line-div22"></div>
+      <div class="la-formation-div8" id="laFormationText">La formation</div>
+      <div class="line-div23"></div>
+      <div class="tmoignages-div11" id="tmoignagesText">Témoignages</div>
+      <div class="line-div24"></div>
+      <div class="nos-rfrences-div8" id="nosRfrencesText">Nos références</div>
+      <div class="line-div25"></div>
+      <div class="contactez-nous-div8">Contactez-nous</div>
+      <div class="ces-entreprises-nous-ont-fait2">
+        Ces entreprises nous ont fait confiance
+      </div>
+      <div class="rectangle-div50"></div>
+      <div class="rectangle-div51"></div>
+      <img class="polygon-icon8" alt="" src="public/polygon-53.svg" /><img
+        class="polygon-icon9"
+        alt=""
+        src="public/polygon-53.svg"
+      /><img class="polygon-icon10" alt="" src="public/polygon-53.svg" /><img
+        class="polygon-icon11"
+        alt=""
+        src="public/polygon-53.svg"
+      /><img class="akka-icon2" alt="" src="public/akka1@2x.png" /><img
+        class="accenture-platinium-1-icon"
+        alt=""
+        src="public/accentureplatinium-2@2x.png"
+      /><img class="polygon-icon11" alt="" src="public/polygon-53.svg" /><img
+        class="accenture-platinium-1-icon"
+        alt=""
+        src="public/accentureplatinium-2@2x.png"
+      /><img class="altran-1-icon" alt="" src="public/altran-21@2x.png" /><img
+        class="wisy-logo-1-icon"
+        alt=""
+        src="public/wisylogo-21@2x.png"
+      /><img
+        class="logo-afpa-vert-png-5-icon5"
+        alt=""
+        src="public/logoafpavertpng-5@2x.png"
+      />
+    </div>
+
+    <script>
+      var accueilText = document.getElementById("accueilText");
+      if (accueilText) {
+        accueilText.addEventListener("click", function (e) {
+          window.location.href = "./accueil.html";
+        });
+      }
+      
+      var laFormationText = document.getElementById("laFormationText");
+      if (laFormationText) {
+        laFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m.html";
+        });
+      }
+      
+      var tmoignagesText = document.getElementById("tmoignagesText");
+      if (tmoignagesText) {
+        tmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignages.html";
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='rEFERENCES']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      </script>
+  </body>
+</html>

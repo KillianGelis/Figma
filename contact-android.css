@@ -1,0 +1,391 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.barre-du-haut4 {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 44px;
+}
+.arrow-9-icon2 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 22px;
+  height: 23.01px;
+  object-fit: cover;
+}
+.arrow-10-icon2,
+.croix-icon12,
+.maison-icon12 {
+  position: absolute;
+  top: 8px;
+  left: 22px;
+  width: 24px;
+  height: 23px;
+  object-fit: cover;
+}
+.croix-icon12,
+.maison-icon12 {
+  top: 12px;
+  left: 46px;
+  width: 15px;
+  height: 17px;
+}
+.maison-icon12 {
+  top: 8px;
+  left: 66px;
+  width: 25px;
+  height: 24px;
+}
+.barre-recherche-icon4 {
+  position: absolute;
+  top: 10px;
+  left: 101px;
+  border-radius: 2px;
+  width: 182px;
+  height: 21px;
+}
+.httpswwwformationdwwmafpa-div12 {
+  position: absolute;
+  top: 14px;
+  left: 103px;
+  font-size: 10px;
+  display: inline-block;
+}
+.rectangle-div61 {
+  position: absolute;
+  top: 11px;
+  left: 292px;
+  border-radius: 2px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 56px;
+  height: 20px;
+}
+.loupe-icon12 {
+  position: absolute;
+  top: 15px;
+  left: 294px;
+  width: 13px;
+  height: 14px;
+  object-fit: cover;
+}
+.accueil-div11,
+.contactez-nous-div11,
+.la-formation-div10,
+.nos-rfrences-div10,
+.tmoignages-div13 {
+  position: absolute;
+  top: 53px;
+  left: 131px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #497cff;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div11,
+.la-formation-div10,
+.nos-rfrences-div10,
+.tmoignages-div13 {
+  left: 180px;
+}
+.contactez-nous-div11,
+.nos-rfrences-div10,
+.tmoignages-div13 {
+  left: 262px;
+}
+.contactez-nous-div11,
+.nos-rfrences-div10 {
+  top: 81px;
+  left: 129px;
+}
+.contactez-nous-div11 {
+  left: 236px;
+}
+.contactez-nous-div12 {
+  position: absolute;
+  top: 158px;
+  left: 5px;
+  font-size: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 175px;
+  height: 30px;
+}
+.rectangle-div62 {
+  position: absolute;
+  top: 773px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 29px;
+}
+.prnom-nom-div1 {
+  position: absolute;
+  top: 209px;
+  left: 9px;
+  display: inline-block;
+}
+.rectangle-div63 {
+  position: absolute;
+  top: 203px;
+  left: 126px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 108px;
+  height: 27px;
+}
+.adresse-mail-div1,
+.john-doe-div1 {
+  position: absolute;
+  top: 209px;
+  left: 151px;
+  display: inline-block;
+}
+.adresse-mail-div1 {
+  top: 246px;
+  left: 7px;
+}
+.rectangle-icon18 {
+  position: absolute;
+  top: 239px;
+  left: 126px;
+  width: 152px;
+  height: 28px;
+}
+.johndoegmailcom-div1,
+.tlphone-div1 {
+  position: absolute;
+  top: 243px;
+  left: 138px;
+  display: inline-block;
+}
+.tlphone-div1 {
+  top: 286px;
+  left: 9px;
+}
+.rectangle-div64 {
+  position: absolute;
+  top: 280px;
+  left: 126px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 128px;
+  height: 30px;
+}
+.div1,
+.vous-tes-div1 {
+  position: absolute;
+  top: 289px;
+  left: 146px;
+  display: inline-block;
+}
+.vous-tes-div1 {
+  top: 326px;
+  left: 11px;
+}
+.ellipse-icon7,
+.ellipse-icon8,
+.ellipse-icon9 {
+  position: absolute;
+  top: 325px;
+  left: 87px;
+  width: 17px;
+  height: 18px;
+}
+.ellipse-icon8,
+.ellipse-icon9 {
+  top: 383px;
+}
+.ellipse-icon9 {
+  top: 406px;
+  left: 169px;
+}
+.ellipse-icon10,
+.ellipse-icon11,
+.ellipse-icon12,
+.ellipse-icon13 {
+  position: absolute;
+  top: 435px;
+  left: 169px;
+  width: 17px;
+  height: 18px;
+}
+.ellipse-icon11,
+.ellipse-icon12,
+.ellipse-icon13 {
+  top: 464px;
+}
+.ellipse-icon12,
+.ellipse-icon13 {
+  top: 493px;
+}
+.ellipse-icon13 {
+  top: 354px;
+  left: 87px;
+}
+.autre-div1,
+.demandeur-demploi-div1,
+.salari-en-transition-pro1 {
+  position: absolute;
+  top: 326px;
+  left: 107px;
+  display: inline-block;
+}
+.autre-div1,
+.salari-en-transition-pro1 {
+  top: 355px;
+}
+.autre-div1 {
+  top: 384px;
+}
+.distance-div1,
+.formation-en-prsentiel1,
+.vos-modalits-prfres1 {
+  position: absolute;
+  top: 407px;
+  left: 11px;
+  display: inline-block;
+}
+.distance-div1,
+.formation-en-prsentiel1 {
+  left: 193px;
+}
+.distance-div1 {
+  top: 436px;
+}
+.alternance-div1,
+.pas-de-prfrence1,
+.vous-tes-rsident-de1 {
+  position: absolute;
+  top: 465px;
+  left: 193px;
+  display: inline-block;
+}
+.pas-de-prfrence1,
+.vous-tes-rsident-de1 {
+  top: 494px;
+}
+.vous-tes-rsident-de1 {
+  top: 522px;
+  left: 13px;
+}
+.rectangle-div65,
+.rectangle-div66 {
+  position: absolute;
+  top: 520px;
+  left: 168px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 173px;
+  height: 78px;
+}
+.rectangle-div66 {
+  top: 546px;
+  left: 163px;
+  width: 178px;
+  height: 53px;
+}
+.choisissez-votre-rgion1 {
+  position: absolute;
+  top: 525px;
+  left: 176px;
+  display: inline-block;
+}
+.rectangle-div67 {
+  position: absolute;
+  top: 520px;
+  left: 323px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 18px;
+  height: 29px;
+}
+.fleche-deroulante-2-icon1 {
+  position: absolute;
+  top: 524px;
+  left: 327px;
+  width: 11px;
+  height: 22px;
+  object-fit: cover;
+}
+.auvergne-rhne-alpes1 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bretagne-p1 {
+  margin: 0;
+}
+.auvergne-rhne-alpes-bourgogne-div1 {
+  position: absolute;
+  top: 549px;
+  left: 170px;
+  display: inline-block;
+}
+.logo-afpa-vert-png-6-icon2 {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  width: 130px;
+  height: 73px;
+  object-fit: cover;
+}
+.background-div,
+.rectangle-div68 {
+  position: absolute;
+  background-color: #fff;
+}
+.rectangle-div68 {
+  top: 679px;
+  left: 36px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 88px;
+  height: 26px;
+}
+.background-div {
+  top: 681px;
+  left: 38px;
+  width: 84px;
+  height: 22px;
+}
+.envoyez-div1 {
+  position: absolute;
+  top: 684px;
+  left: 54px;
+  display: inline-block;
+}
+.contact-android-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 13px;
+  color: #000;
+  font-family: Inter;
+}

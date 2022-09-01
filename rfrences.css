@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.rectangle-div48,
+.references-div {
+  position: absolute;
+  top: 64px;
+  left: -2px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 1370px;
+  height: 622px;
+}
+.rectangle-div48 {
+  top: -2px;
+  background-color: #a4a4a4;
+  height: 70px;
+}
+.rectangle-div49,
+.rectangle-icon15 {
+  position: absolute;
+  top: 25px;
+  left: 143px;
+  border-radius: 2px;
+  width: 1082px;
+  height: 24px;
+}
+.rectangle-div49 {
+  left: 1264px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 89px;
+}
+.httpswwwformationdwwmafpa-div10 {
+  position: absolute;
+  top: 29px;
+  left: 145px;
+  color: #000;
+  display: inline-block;
+}
+.arrow-7-icon2,
+.arrow-8-icon2 {
+  position: absolute;
+  top: 21px;
+  left: 40px;
+  width: 33px;
+  height: 30px;
+  object-fit: cover;
+}
+.arrow-8-icon2 {
+  left: 7px;
+  width: 33.03px;
+  height: 30.03px;
+}
+.croix-icon10,
+.loupe-icon10,
+.maison-icon10 {
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  width: 23px;
+  height: 22px;
+  object-fit: cover;
+}
+.loupe-icon10,
+.maison-icon10 {
+  top: 21px;
+  left: 109px;
+  width: 30px;
+  height: 30px;
+}
+.loupe-icon10 {
+  top: 27px;
+  left: 1266px;
+  width: 17px;
+  height: 20px;
+}
+.accueil-div9 {
+  position: absolute;
+  top: 153px;
+  left: 165px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div22 {
+  position: absolute;
+  top: 144.5px;
+  left: 217.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.la-formation-div8 {
+  position: absolute;
+  top: 153px;
+  left: 236px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div23 {
+  position: absolute;
+  top: 144.5px;
+  left: 320.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.tmoignages-div11 {
+  position: absolute;
+  top: 153px;
+  left: 334px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div24 {
+  position: absolute;
+  top: 144.5px;
+  left: 426.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.nos-rfrences-div8 {
+  position: absolute;
+  top: 153px;
+  left: 444px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div25 {
+  position: absolute;
+  top: 144.5px;
+  left: 540.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.contactez-nous-div8 {
+  position: absolute;
+  top: 153px;
+  left: 555px;
+  text-decoration: underline;
+  display: inline-block;
+}
+.ces-entreprises-nous-ont-fait2 {
+  position: absolute;
+  top: 224px;
+  left: 27px;
+  font-size: 36px;
+  color: #000;
+  display: inline-block;
+}
+.rectangle-div50,
+.rectangle-div51 {
+  position: absolute;
+  top: 333px;
+  left: -2px;
+  background-color: #4fb945;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 1355px;
+  height: 332px;
+}
+.rectangle-div51 {
+  top: 663px;
+  left: 0;
+  background-color: #a4a4a4;
+  width: 1366px;
+  height: 21px;
+}
+.polygon-icon10,
+.polygon-icon11,
+.polygon-icon8,
+.polygon-icon9 {
+  position: absolute;
+  top: 348px;
+  left: 16px;
+  width: 75px;
+  height: 84.5px;
+}
+.polygon-icon10,
+.polygon-icon11,
+.polygon-icon9 {
+  left: 206px;
+}
+.polygon-icon10,
+.polygon-icon11 {
+  left: 301px;
+}
+.polygon-icon11 {
+  left: 111px;
+}
+.accenture-platinium-1-icon,
+.akka-icon2 {
+  position: absolute;
+  top: 367px;
+  left: 31px;
+  width: 44px;
+  height: 47px;
+  object-fit: cover;
+}
+.accenture-platinium-1-icon {
+  top: 359px;
+  left: 117px;
+  width: 62px;
+  height: 63px;
+}
+.altran-1-icon,
+.logo-afpa-vert-png-5-icon5,
+.wisy-logo-1-icon {
+  position: absolute;
+  top: 375px;
+  left: 206px;
+  width: 75px;
+  height: 30px;
+  object-fit: cover;
+}
+.logo-afpa-vert-png-5-icon5,
+.wisy-logo-1-icon {
+  left: 305px;
+  width: 71px;
+}
+.logo-afpa-vert-png-5-icon5 {
+  top: 72px;
+  left: 15px;
+  width: 130px;
+  height: 73px;
+}
+.rfrences-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 684px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #497cff;
+  font-family: Inter;
+}

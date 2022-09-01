@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./tmoignages-android.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tmoignages-android-div">
+      <div class="barre-du-haut2"></div>
+      <img class="arrow-5-icon1" alt="" src="public/arrow-32@2x.png" /><img
+        class="arrow-6-icon1"
+        alt=""
+        src="public/arrow-33@2x.png"
+      /><img class="croix-icon7" alt="" src="public/croix1@2x.png" /><img
+        class="maison-icon7"
+        alt=""
+        src="public/maison1@2x.png"
+      /><img
+        class="barre-recherche-icon2"
+        alt=""
+        src="public/barre-recherche.svg"
+      />
+      <div class="httpswwwformationdwwmafpa-div6">
+        https://www.formationDWWM.afpa.fr/
+      </div>
+      <div class="rectangle-div27"></div>
+      <img class="loupe-icon7" alt="" src="public/loupe1@2x.png" />
+      <div class="les-stagiaires-tmoignent1">Les stagiaires témoignent</div>
+      <div class="rectangle-div28"></div>
+      <img class="rectangle-icon8" alt="" src="public/rectangle-431@2x.png" />
+      <div class="rectangle-div29"></div>
+      <img class="rectangle-icon9" alt="" src="public/rectangle-451@2x.png" />
+      <div class="rectangle-div30"></div>
+      <img class="rectangle-icon10" alt="" src="public/rectangle-471@2x.png" />
+      <div class="rectangle-div31"></div>
+      <div class="miaouss-sbire-team-rocket-div1">
+        <p class="miaouss-p1">Miaouss</p>
+        <p class="miaouss-p1">Sbire</p>
+        <p class="miaouss-p1">Team Rocket</p>
+        <p class="p3">"”</p>
+      </div>
+      <div class="james-sbire-team-rocket-div1">
+        <p class="miaouss-p1">James</p>
+        <p class="miaouss-p1">Sbire</p>
+        <p class="miaouss-p1">Team Rocket</p>
+        <p class="p3">"”</p>
+      </div>
+      <div class="rectangle-div32"></div>
+      <div class="jessie-sbire-team-rocket-div1">
+        <p class="miaouss-p1">Jessie</p>
+        <p class="miaouss-p1">Sbire</p>
+        <p class="miaouss-p1">Team Rocket</p>
+        <p class="p3">"”</p>
+      </div>
+      <img
+        class="logo-afpa-vert-png-6-icon"
+        alt=""
+        src="public/logoafpavertpng-6@2x.png"
+      /><img
+        class="menu-3-icon"
+        alt=""
+        src="public/menu-2@2x.png"
+        id="menu3Icon"
+      />
+    </div>
+
+    <div id="menuBurgerContainer" class="popup-overlay" style="display: none">
+      <div class="menu-burger-div">
+        <div class="accueil-div" id="popupaccueilText">Accueil</div>
+        <div class="la-formation-div" id="popuplaFormationText">
+          La Formation
+        </div>
+        <div class="tmoignages-div" id="popuptmoignagesText">Témoignages</div>
+        <div class="nos-rfrences-div" id="popupnosRfrencesText">
+          Nos références
+        </div>
+        <div class="contactez-nous-div" id="popupcontactezNousText">
+          Contactez-nous
+        </div>
+        <img class="menu-2-icon" alt="" src="public/menu-2@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var popupaccueilText = document.getElementById("popupaccueilText");
+      if (popupaccueilText) {
+        popupaccueilText.addEventListener("click", function (e) {
+          window.location.href = "./accueil-android.html";
+        });
+      }
+      
+      var popuplaFormationText = document.getElementById("popuplaFormationText");
+      if (popuplaFormationText) {
+        popuplaFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m-android.html";
+        });
+      }
+      
+      var popuptmoignagesText = document.getElementById("popuptmoignagesText");
+      if (popuptmoignagesText) {
+        popuptmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignages-android.html";
+        });
+      }
+      
+      var popupnosRfrencesText = document.getElementById("popupnosRfrencesText");
+      if (popupnosRfrencesText) {
+        popupnosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences-android.html";
+        });
+      }
+      
+      var popupcontactezNousText = document.getElementById("popupcontactezNousText");
+      if (popupcontactezNousText) {
+        popupcontactezNousText.addEventListener("click", function (e) {
+          window.location.href = "./contact-android.html";
+        });
+      }
+      
+      var menu3Icon = document.getElementById("menu3Icon");
+      if (menu3Icon) {
+        menu3Icon.addEventListener("click", function () {
+          var popup = document.getElementById("menuBurgerContainer");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+  </body>
+</html>

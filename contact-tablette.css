@@ -1,0 +1,406 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.rectangle-div52 {
+  position: absolute;
+  top: 1px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 70px;
+}
+.arrow-10-icon1 {
+  position: absolute;
+  top: 21px;
+  left: 4px;
+  width: 33.03px;
+  height: 30.03px;
+  object-fit: cover;
+}
+.arrow-11-icon1,
+.croix-icon11,
+.maison-icon11 {
+  position: absolute;
+  top: 21px;
+  left: 37px;
+  width: 33px;
+  height: 30px;
+  object-fit: cover;
+}
+.croix-icon11,
+.maison-icon11 {
+  top: 25px;
+  left: 70px;
+  width: 23px;
+  height: 22px;
+}
+.maison-icon11 {
+  top: 21px;
+  left: 99px;
+  width: 30px;
+  height: 30px;
+}
+.rectangle-div53,
+.rectangle-icon16 {
+  position: absolute;
+  top: 24px;
+  left: 145px;
+  border-radius: 2px;
+  width: 571px;
+  height: 24px;
+}
+.rectangle-div53 {
+  left: 730px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 89px;
+}
+.loupe-icon11 {
+  position: absolute;
+  top: 26px;
+  left: 732px;
+  width: 17px;
+  height: 20px;
+  object-fit: cover;
+}
+.accueil-div10 {
+  position: absolute;
+  top: 126px;
+  left: 147px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #497cff;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div26,
+.line-div27,
+.line-div28,
+.line-div29 {
+  position: absolute;
+  top: 119.5px;
+  left: 208.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.line-div27,
+.line-div28,
+.line-div29 {
+  left: 320.5px;
+}
+.line-div28,
+.line-div29 {
+  left: 434.5px;
+}
+.line-div29 {
+  left: 557.5px;
+}
+.contactez-nous-div9,
+.la-formation-div9,
+.nos-rfrences-div9,
+.tmoignages-div12 {
+  position: absolute;
+  top: 126px;
+  left: 229px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #497cff;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div9,
+.nos-rfrences-div9,
+.tmoignages-div12 {
+  left: 341px;
+}
+.contactez-nous-div9,
+.nos-rfrences-div9 {
+  left: 453px;
+}
+.contactez-nous-div9 {
+  left: 576px;
+}
+.contactez-nous-div10 {
+  position: absolute;
+  top: 247px;
+  left: 37px;
+  font-size: 36px;
+  display: inline-block;
+}
+.rectangle-div54 {
+  position: absolute;
+  top: 1114px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 79px;
+}
+.httpswwwformationdwwmafpa-div11 {
+  position: absolute;
+  top: 24px;
+  left: 146px;
+  font-size: 20px;
+  display: inline-block;
+  width: 568px;
+}
+.prnom-nom-div {
+  position: absolute;
+  top: 332px;
+  left: 43px;
+  display: inline-block;
+}
+.rectangle-div55 {
+  position: absolute;
+  top: 326px;
+  left: 187px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 108px;
+  height: 27px;
+}
+.adresse-mail-div,
+.john-doe-div {
+  position: absolute;
+  top: 332px;
+  left: 209px;
+  display: inline-block;
+}
+.adresse-mail-div {
+  top: 371px;
+  left: 42px;
+}
+.rectangle-icon17 {
+  position: absolute;
+  top: 369px;
+  left: 187px;
+  width: 152px;
+  height: 28px;
+}
+.johndoegmailcom-div,
+.tlphone-div {
+  position: absolute;
+  top: 375px;
+  left: 193px;
+  display: inline-block;
+}
+.tlphone-div {
+  top: 410px;
+  left: 43px;
+}
+.rectangle-div56 {
+  position: absolute;
+  top: 408px;
+  left: 187px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 128px;
+  height: 30px;
+}
+.div,
+.vous-tes-div {
+  position: absolute;
+  top: 415px;
+  left: 207px;
+  display: inline-block;
+}
+.vous-tes-div {
+  top: 467px;
+  left: 43px;
+}
+.ellipse-icon,
+.ellipse-icon1 {
+  position: absolute;
+  top: 466px;
+  left: 188px;
+  width: 17px;
+  height: 18px;
+}
+.ellipse-icon1 {
+  top: 513px;
+  left: 206px;
+}
+.ellipse-icon2,
+.ellipse-icon3,
+.ellipse-icon4,
+.ellipse-icon5 {
+  position: absolute;
+  top: 513px;
+  left: 384px;
+  width: 17px;
+  height: 18px;
+}
+.ellipse-icon3,
+.ellipse-icon4,
+.ellipse-icon5 {
+  left: 510px;
+}
+.ellipse-icon4,
+.ellipse-icon5 {
+  left: 607px;
+}
+.ellipse-icon5 {
+  top: 466px;
+  left: 353px;
+}
+.demandeur-demploi-div,
+.salari-en-transition-pro {
+  position: absolute;
+  top: 467px;
+  left: 212px;
+  display: inline-block;
+}
+.salari-en-transition-pro {
+  left: 385px;
+}
+.ellipse-icon6 {
+  position: absolute;
+  top: 466px;
+  left: 542px;
+  width: 17px;
+  height: 18px;
+}
+.autre-div {
+  position: absolute;
+  top: 467px;
+  left: 574px;
+  display: inline-block;
+}
+.distance-div,
+.formation-en-prsentiel,
+.vos-modalits-prfres {
+  position: absolute;
+  top: 514px;
+  left: 43px;
+  display: inline-block;
+}
+.distance-div,
+.formation-en-prsentiel {
+  left: 229px;
+}
+.distance-div {
+  left: 411px;
+}
+.alternance-div,
+.pas-de-prfrence,
+.vous-tes-rsident-de {
+  position: absolute;
+  top: 514px;
+  left: 533px;
+  display: inline-block;
+}
+.pas-de-prfrence,
+.vous-tes-rsident-de {
+  left: 636px;
+}
+.vous-tes-rsident-de {
+  top: 571px;
+  left: 43px;
+}
+.rectangle-div57,
+.rectangle-div58,
+.rectangle-div59 {
+  position: absolute;
+  top: 569px;
+  left: 208px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 173px;
+  height: 78px;
+}
+.rectangle-div58,
+.rectangle-div59 {
+  top: 594px;
+  left: 203px;
+  width: 178px;
+  height: 53px;
+}
+.rectangle-div59 {
+  top: 569px;
+  left: 363px;
+  width: 18px;
+  height: 29px;
+}
+.fleche-deroulante-2-icon {
+  position: absolute;
+  top: 574px;
+  left: 367px;
+  width: 11px;
+  height: 22px;
+  object-fit: cover;
+}
+.choisissez-votre-rgion {
+  position: absolute;
+  top: 574px;
+  left: 217px;
+  display: inline-block;
+}
+.auvergne-rhne-alpes {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bretagne-p {
+  margin: 0;
+}
+.auvergne-rhne-alpes-bourgogne-div {
+  position: absolute;
+  top: 595px;
+  left: 210px;
+  display: inline-block;
+}
+.rectangle-div60 {
+  position: absolute;
+  top: 751px;
+  left: 43px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 88px;
+  height: 27px;
+}
+.envoyez-div {
+  position: absolute;
+  top: 756px;
+  left: 60px;
+  display: inline-block;
+  width: 52px;
+  height: 17px;
+}
+.logo-afpa-vert-png-6-icon1 {
+  position: absolute;
+  top: 88px;
+  left: 8px;
+  width: 130px;
+  height: 63px;
+  object-fit: cover;
+}
+.contact-tablette-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1194px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 13px;
+  color: #000;
+  font-family: Inter;
+}

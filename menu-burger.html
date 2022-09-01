@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./menu-burger.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="menu-burger-div">
+      <div class="accueil-div" id="popupaccueilText">Accueil</div>
+      <div class="la-formation-div" id="popuplaFormationText">La Formation</div>
+      <div class="tmoignages-div" id="popuptmoignagesText">Témoignages</div>
+      <div class="nos-rfrences-div" id="popupnosRfrencesText">
+        Nos références
+      </div>
+      <div class="contactez-nous-div" id="popupcontactezNousText">
+        Contactez-nous
+      </div>
+      <img class="menu-2-icon" alt="" src="public/menu-2@2x.png" />
+    </div>
+
+    <script>
+      var popupaccueilText = document.getElementById("popupaccueilText");
+      if (popupaccueilText) {
+        popupaccueilText.addEventListener("click", function (e) {
+          window.location.href = "./accueil-android.html";
+        });
+      }
+      
+      var popuplaFormationText = document.getElementById("popuplaFormationText");
+      if (popuplaFormationText) {
+        popuplaFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m-android.html";
+        });
+      }
+      
+      var popuptmoignagesText = document.getElementById("popuptmoignagesText");
+      if (popuptmoignagesText) {
+        popuptmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignages-android.html";
+        });
+      }
+      
+      var popupnosRfrencesText = document.getElementById("popupnosRfrencesText");
+      if (popupnosRfrencesText) {
+        popupnosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences-android.html";
+        });
+      }
+      
+      var popupcontactezNousText = document.getElementById("popupcontactezNousText");
+      if (popupcontactezNousText) {
+        popupcontactezNousText.addEventListener("click", function (e) {
+          window.location.href = "./contact-android.html";
+        });
+      }
+      </script>
+  </body>
+</html>

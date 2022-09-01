@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.tmoignages-div8 {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 1511px;
+  height: 818px;
+}
+.logo-afpa-vert-png-5-icon2 {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  width: 130px;
+  height: 73px;
+  object-fit: cover;
+}
+.rectangle-div33 {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 1511px;
+  height: 72px;
+}
+.arrow-9-icon {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 33.03px;
+  height: 30.03px;
+  object-fit: cover;
+}
+.arrow-11-icon,
+.croix-1-icon,
+.maison-1-icon {
+  position: absolute;
+  top: 23px;
+  left: 33px;
+  width: 33px;
+  height: 30px;
+  object-fit: cover;
+}
+.croix-1-icon,
+.maison-1-icon {
+  top: 27px;
+  left: 70px;
+  width: 23px;
+  height: 22px;
+}
+.maison-1-icon {
+  top: 23px;
+  left: 107px;
+  width: 30px;
+  height: 30px;
+}
+.rectangle-div34 {
+  position: absolute;
+  top: 24px;
+  left: 149px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 1181px;
+  height: 27px;
+}
+.httpswwwformationdwwmafpa-div7 {
+  position: absolute;
+  top: 30px;
+  left: 156px;
+  display: inline-block;
+}
+.rectangle-div35 {
+  position: absolute;
+  top: 24px;
+  left: 1372px;
+  border-radius: 2px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 98px;
+  height: 28px;
+}
+.loupe-1-icon {
+  position: absolute;
+  top: 28px;
+  left: 1374px;
+  width: 17px;
+  height: 20px;
+  object-fit: cover;
+}
+.accueil-div7 {
+  position: absolute;
+  top: 153px;
+  left: 161px;
+  text-decoration: underline;
+  color: #497cff;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div14,
+.line-div15,
+.line-div16,
+.line-div17 {
+  position: absolute;
+  top: 135.5px;
+  left: 222.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 51px;
+}
+.line-div15,
+.line-div16,
+.line-div17 {
+  left: 338.5px;
+}
+.line-div16,
+.line-div17 {
+  top: 134.5px;
+  left: 466.5px;
+}
+.line-div17 {
+  top: 135.5px;
+  left: 602.5px;
+}
+.la-formation-div6 {
+  top: 153px;
+  left: 243px;
+  cursor: pointer;
+}
+.contactez-nous-div6,
+.la-formation-div6,
+.nos-rfrences-div6,
+.tmoignages-div9 {
+  position: absolute;
+  text-decoration: underline;
+  color: #497cff;
+  display: inline-block;
+}
+.tmoignages-div9 {
+  top: 152px;
+  left: 363px;
+  cursor: pointer;
+}
+.contactez-nous-div6,
+.nos-rfrences-div6 {
+  top: 153px;
+}
+.nos-rfrences-div6 {
+  left: 495px;
+  cursor: pointer;
+}
+.contactez-nous-div6 {
+  left: 625px;
+}
+.les-stagiaires-tmoignent2 {
+  position: absolute;
+  top: 248px;
+  left: 51px;
+  font-size: 36px;
+  display: inline-block;
+}
+.rectangle-div36 {
+  position: absolute;
+  top: 336px;
+  left: 76px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 327px;
+  height: 394px;
+}
+.rectangle-icon11 {
+  position: absolute;
+  top: 355px;
+  left: 135px;
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+.rectangle-div37 {
+  position: absolute;
+  top: 336px;
+  left: 601px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 327px;
+  height: 394px;
+}
+.rectangle-icon12 {
+  position: absolute;
+  top: 356px;
+  left: 636px;
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+.rectangle-div38 {
+  position: absolute;
+  top: 335px;
+  left: 1096px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 327px;
+  height: 394px;
+}
+.rectangle-icon13 {
+  position: absolute;
+  top: 355px;
+  left: 1131px;
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+}
+.rectangle-div39 {
+  position: absolute;
+  top: 785px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 1511px;
+  height: 31px;
+}
+.jessie-p2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.p6 {
+  margin: 0;
+}
+.james-sbire-team-rocket-div2,
+.jessie-sbire-team-rocket-div2,
+.miaouss-sbire-team-rocket-div2 {
+  position: absolute;
+  top: 519px;
+  left: 107px;
+  font-size: 20px;
+  display: inline-block;
+  width: 232px;
+  height: 190px;
+}
+.james-sbire-team-rocket-div2,
+.miaouss-sbire-team-rocket-div2 {
+  left: 634px;
+}
+.miaouss-sbire-team-rocket-div2 {
+  left: 1133px;
+}
+.tmoignages-div7 {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 814px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+  font-family: Inter;
+}

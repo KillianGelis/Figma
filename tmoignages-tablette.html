@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./tmoignages-tablette.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tmoignages-tablette-div">
+      <div class="rectangle-div21" data-scroll-to="rectangleRectangle3"></div>
+      <img class="arrow-6-icon" alt="" src="public/arrow-3@2x.png" /><img
+        class="arrow-7-icon"
+        alt=""
+        src="public/arrow-31@2x.png"
+      /><img class="croix-icon6" alt="" src="public/croix@2x.png" /><img
+        class="maison-icon6"
+        alt=""
+        src="public/maison@2x.png"
+      /><img class="rectangle-icon4" alt="" src="public/rectangle-7.svg" />
+      <div class="rectangle-div22"></div>
+      <img class="loupe-icon6" alt="" src="public/loupe@2x.png" />
+      <div class="accueil-div6" id="accueilText">Accueil</div>
+      <div class="line-div10"></div>
+      <div class="line-div11"></div>
+      <div class="line-div12"></div>
+      <div class="line-div13"></div>
+      <div class="la-formation-div5" id="laFormationText">La formation</div>
+      <div class="tmoignages-div6" id="tmoignagesText">Témoignages</div>
+      <div class="nos-rfrences-div5" id="nosRfrencesText">Nos références</div>
+      <div class="contactez-nous-div5" id="contactezNousText">
+        Contactez-nous
+      </div>
+      <div class="les-stagiaires-tmoignent">Les stagiaires témoignent</div>
+      <div class="rectangle-div23"></div>
+      <div class="httpswwwformationdwwmafpa-div5">
+        https://www.formationDWWM.afpa.fr/Témoignages.html
+      </div>
+      <div class="rectangle-div24"></div>
+      <img class="rectangle-icon5" alt="" src="public/rectangle-43@2x.png" />
+      <div class="jessie-sbire-team-rocket-div">
+        <p class="jessie-p">Jessie</p>
+        <p class="jessie-p">Sbire</p>
+        <p class="jessie-p">Team Rocket</p>
+        <p class="p">"”</p>
+      </div>
+      <div class="rectangle-div25"></div>
+      <img class="rectangle-icon6" alt="" src="public/rectangle-45@2x.png" />
+      <div class="rectangle-div26"></div>
+      <img class="rectangle-icon7" alt="" src="public/rectangle-47@2x.png" />
+      <div class="james-sbire-team-rocket-div">
+        <p class="jessie-p">James</p>
+        <p class="jessie-p">Sbire</p>
+        <p class="jessie-p">Team Rocket</p>
+        <p class="p">"”</p>
+      </div>
+      <div class="miaouss-sbire-team-rocket-div">
+        <p class="jessie-p">Miaouss</p>
+        <p class="jessie-p">Sbire</p>
+        <p class="jessie-p">Team Rocket</p>
+        <p class="p">"”</p>
+      </div>
+      <img
+        class="logo-afpa-vert-png-5-icon1"
+        alt=""
+        src="public/logoafpavertpng-5@2x.png"
+      />
+    </div>
+
+    <script>
+      var accueilText = document.getElementById("accueilText");
+      if (accueilText) {
+        accueilText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var laFormationText = document.getElementById("laFormationText");
+      if (laFormationText) {
+        laFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m-tablette.html";
+        });
+      }
+      
+      var tmoignagesText = document.getElementById("tmoignagesText");
+      if (tmoignagesText) {
+        tmoignagesText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='rectangleRectangle3']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences-tablette.html";
+        });
+      }
+      
+      var contactezNousText = document.getElementById("contactezNousText");
+      if (contactezNousText) {
+        contactezNousText.addEventListener("click", function (e) {
+          window.location.href = "./contact-tablette.html";
+        });
+      }
+      </script>
+  </body>
+</html>

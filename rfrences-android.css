@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.barre-du-haut3 {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 44px;
+}
+.arrow-7-icon1,
+.arrow-8-icon1,
+.croix-icon9,
+.maison-icon9 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 22px;
+  height: 23.01px;
+  object-fit: cover;
+}
+.arrow-8-icon1,
+.croix-icon9,
+.maison-icon9 {
+  left: 22px;
+  width: 24px;
+  height: 23px;
+}
+.croix-icon9,
+.maison-icon9 {
+  top: 12px;
+  left: 46px;
+  width: 15px;
+  height: 17px;
+}
+.maison-icon9 {
+  top: 8px;
+  left: 66px;
+  width: 25px;
+  height: 24px;
+}
+.barre-recherche-icon3 {
+  position: absolute;
+  top: 10px;
+  left: 101px;
+  border-radius: 2px;
+  width: 182px;
+  height: 21px;
+}
+.httpswwwformationdwwmafpa-div9 {
+  position: absolute;
+  top: 14px;
+  left: 103px;
+  display: inline-block;
+}
+.rectangle-div44 {
+  position: absolute;
+  top: 11px;
+  left: 292px;
+  border-radius: 2px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 56px;
+  height: 20px;
+}
+.loupe-icon9 {
+  position: absolute;
+  top: 15px;
+  left: 294px;
+  width: 13px;
+  height: 14px;
+  object-fit: cover;
+}
+.ces-entreprises-nous-ont-fait1 {
+  position: absolute;
+  top: 158px;
+  left: 5px;
+  font-size: 21px;
+  font-weight: 500;
+  display: inline-block;
+  width: 221px;
+  height: 48px;
+}
+.rectangle-div45 {
+  position: absolute;
+  top: 259px;
+  left: -2px;
+  background-color: #4fb945;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 519px;
+}
+.akka-icon1,
+.polygon-icon4 {
+  position: absolute;
+  top: 290px;
+  left: 136px;
+  width: 75px;
+  height: 85px;
+}
+.akka-icon1 {
+  top: 309px;
+  left: 151px;
+  width: 44px;
+  height: 47px;
+  object-fit: cover;
+}
+.rectangle-div46 {
+  position: absolute;
+  top: 40px;
+  left: -2px;
+  background-color: rgba(182, 248, 151, 0.33);
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 82px;
+}
+.polygon-icon5 {
+  position: absolute;
+  top: 415px;
+  left: 136px;
+  width: 75px;
+  height: 84px;
+}
+.accenture-platinium-2-icon {
+  position: absolute;
+  top: 425px;
+  left: 142px;
+  width: 62px;
+  height: 63px;
+  object-fit: cover;
+}
+.polygon-icon6 {
+  top: 539px;
+  height: 84.5px;
+}
+.altran-2-icon1,
+.polygon-icon6,
+.polygon-icon7 {
+  position: absolute;
+  left: 136px;
+  width: 75px;
+}
+.altran-2-icon1 {
+  top: 566px;
+  height: 30px;
+  object-fit: cover;
+}
+.polygon-icon7 {
+  top: 663px;
+  height: 84.5px;
+}
+.wisy-logo-2-icon1 {
+  position: absolute;
+  top: 690px;
+  left: 140px;
+  width: 71px;
+  height: 30px;
+  object-fit: cover;
+}
+.rectangle-div47 {
+  position: absolute;
+  top: 773px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 364px;
+  height: 29px;
+}
+.logo-afpa-vert-png-5-icon4,
+.menu-4-icon {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 130px;
+  height: 73px;
+  object-fit: cover;
+}
+.menu-4-icon {
+  top: 124px;
+  left: 5px;
+  width: 38px;
+  height: 34px;
+}
+.rfrences-android-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 10px;
+  color: #000;
+  font-family: Inter;
+}
+.accueil-div {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  color: #070707;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div,
+.la-formation-div,
+.nos-rfrences-div,
+.tmoignages-div {
+  position: absolute;
+  top: 78px;
+  left: 16px;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div,
+.nos-rfrences-div,
+.tmoignages-div {
+  top: 145px;
+}
+.contactez-nous-div,
+.nos-rfrences-div {
+  top: 206px;
+}
+.contactez-nous-div {
+  top: 273px;
+  width: 183px;
+  height: 27px;
+}
+.menu-2-icon {
+  position: absolute;
+  top: 6px;
+  left: 180px;
+  width: 38px;
+  height: 34px;
+  object-fit: cover;
+}
+.menu-burger-div {
+  position: relative;
+  background-color: #8ffb86;
+  width: 226px;
+  height: 741px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}

@@ -1,0 +1,239 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.rectangle-div40 {
+  position: absolute;
+  top: 4px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 70px;
+}
+.arrow-8-icon,
+.arrow-9-icon1,
+.croix-icon8,
+.maison-icon8 {
+  position: absolute;
+  top: 24px;
+  left: 4px;
+  width: 33.03px;
+  height: 30.03px;
+  object-fit: cover;
+}
+.arrow-9-icon1,
+.croix-icon8,
+.maison-icon8 {
+  left: 37px;
+  width: 33px;
+  height: 30px;
+}
+.croix-icon8,
+.maison-icon8 {
+  top: 28px;
+  left: 70px;
+  width: 23px;
+  height: 22px;
+}
+.maison-icon8 {
+  top: 24px;
+  left: 99px;
+  width: 30px;
+  height: 30px;
+}
+.rectangle-div41,
+.rectangle-icon14 {
+  position: absolute;
+  top: 27px;
+  left: 145px;
+  border-radius: 2px;
+  width: 571px;
+  height: 24px;
+}
+.rectangle-div41 {
+  left: 730px;
+  background-color: #d9d9d9;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 89px;
+}
+.loupe-icon8 {
+  position: absolute;
+  top: 29px;
+  left: 732px;
+  width: 17px;
+  height: 20px;
+  object-fit: cover;
+}
+.accueil-div8 {
+  position: absolute;
+  top: 129px;
+  left: 147px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.line-div18,
+.line-div19,
+.line-div20,
+.line-div21 {
+  position: absolute;
+  top: 122.5px;
+  left: 208.5px;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  width: 1px;
+  height: 37px;
+}
+.line-div19,
+.line-div20,
+.line-div21 {
+  left: 320.5px;
+}
+.line-div20,
+.line-div21 {
+  left: 434.5px;
+}
+.line-div21 {
+  left: 557.5px;
+}
+.contactez-nous-div7,
+.la-formation-div7,
+.nos-rfrences-div7,
+.tmoignages-div10 {
+  position: absolute;
+  top: 129px;
+  left: 229px;
+  text-decoration: underline;
+  display: inline-block;
+  cursor: pointer;
+}
+.contactez-nous-div7,
+.nos-rfrences-div7,
+.tmoignages-div10 {
+  left: 341px;
+}
+.contactez-nous-div7,
+.nos-rfrences-div7 {
+  left: 453px;
+}
+.contactez-nous-div7 {
+  left: 576px;
+}
+.ces-entreprises-nous-ont-fait {
+  position: absolute;
+  top: 250px;
+  left: 37px;
+  font-size: 36px;
+  color: #000;
+  display: inline-block;
+}
+.rectangle-div42 {
+  position: absolute;
+  top: 1117px;
+  left: -2px;
+  background-color: #a4a4a4;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 838px;
+  height: 79px;
+}
+.httpswwwformationdwwmafpa-div8 {
+  position: absolute;
+  top: 27px;
+  left: 146px;
+  font-size: 20px;
+  color: #000;
+  display: inline-block;
+  width: 568px;
+}
+.rectangle-div43 {
+  position: absolute;
+  top: 361px;
+  left: -2px;
+  background-color: #4fb945;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  width: 845px;
+  height: 777px;
+}
+.polygon-icon,
+.polygon-icon1,
+.polygon-icon2,
+.polygon-icon3 {
+  position: absolute;
+  top: 400px;
+  left: 63px;
+  width: 238px;
+  height: 285px;
+}
+.polygon-icon1,
+.polygon-icon2,
+.polygon-icon3 {
+  top: 785px;
+}
+.polygon-icon2,
+.polygon-icon3 {
+  left: 511px;
+}
+.polygon-icon3 {
+  top: 400px;
+}
+.accenture-platinium-3-icon,
+.akka-icon {
+  position: absolute;
+  top: 463px;
+  left: 113px;
+  width: 139px;
+  height: 159px;
+  object-fit: cover;
+}
+.accenture-platinium-3-icon {
+  top: 470px;
+  left: 542px;
+  width: 176px;
+  height: 145px;
+}
+.altran-2-icon,
+.logo-afpa-vert-png-5-icon3,
+.wisy-logo-2-icon {
+  position: absolute;
+  top: 880px;
+  left: 63px;
+  width: 237px;
+  height: 96px;
+  object-fit: cover;
+}
+.logo-afpa-vert-png-5-icon3,
+.wisy-logo-2-icon {
+  left: 527px;
+  width: 206px;
+}
+.logo-afpa-vert-png-5-icon3 {
+  top: 86px;
+  left: 5px;
+  width: 130px;
+  height: 73px;
+}
+.rfrences-tablette-div {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 1194px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #497cff;
+  font-family: Inter;
+}

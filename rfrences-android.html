@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./rfrences-android.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rfrences-android-div">
+      <div class="barre-du-haut3"></div>
+      <img class="arrow-7-icon1" alt="" src="public/arrow-32@2x.png" /><img
+        class="arrow-8-icon1"
+        alt=""
+        src="public/arrow-33@2x.png"
+      /><img class="croix-icon9" alt="" src="public/croix1@2x.png" /><img
+        class="maison-icon9"
+        alt=""
+        src="public/maison1@2x.png"
+      /><img
+        class="barre-recherche-icon3"
+        alt=""
+        src="public/barre-recherche.svg"
+      />
+      <div class="httpswwwformationdwwmafpa-div9">
+        https://www.formationDWWM.afpa.fr/
+      </div>
+      <div class="rectangle-div44"></div>
+      <img class="loupe-icon9" alt="" src="public/loupe1@2x.png" />
+      <div class="ces-entreprises-nous-ont-fait1">
+        Ces entreprises nous ont fait confiance
+      </div>
+      <div class="rectangle-div45"></div>
+      <img class="polygon-icon4" alt="" src="public/polygon-51.svg" /><img
+        class="akka-icon1"
+        alt=""
+        src="public/akka1@2x.png"
+      />
+      <div class="rectangle-div46"></div>
+      <img class="polygon-icon5" alt="" src="public/polygon-52.svg" /><img
+        class="accenture-platinium-2-icon"
+        alt=""
+        src="public/accentureplatinium-2@2x.png"
+      /><img class="polygon-icon6" alt="" src="public/polygon-53.svg" /><img
+        class="altran-2-icon1"
+        alt=""
+        src="public/altran-21@2x.png"
+      /><img class="polygon-icon7" alt="" src="public/polygon-53.svg" /><img
+        class="wisy-logo-2-icon1"
+        alt=""
+        src="public/wisylogo-21@2x.png"
+      />
+      <div class="rectangle-div47"></div>
+      <img
+        class="logo-afpa-vert-png-5-icon4"
+        alt=""
+        src="public/logoafpavertpng-5@2x.png"
+      /><img
+        class="menu-4-icon"
+        alt=""
+        src="public/menu-2@2x.png"
+        id="menu4Icon"
+      />
+    </div>
+
+    <div id="menuBurgerContainer" class="popup-overlay" style="display: none">
+      <div class="menu-burger-div">
+        <div class="accueil-div" id="popupaccueilText">Accueil</div>
+        <div class="la-formation-div" id="popuplaFormationText">
+          La Formation
+        </div>
+        <div class="tmoignages-div" id="popuptmoignagesText">Témoignages</div>
+        <div class="nos-rfrences-div" id="popupnosRfrencesText">
+          Nos références
+        </div>
+        <div class="contactez-nous-div" id="popupcontactezNousText">
+          Contactez-nous
+        </div>
+        <img class="menu-2-icon" alt="" src="public/menu-2@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var popupaccueilText = document.getElementById("popupaccueilText");
+      if (popupaccueilText) {
+        popupaccueilText.addEventListener("click", function (e) {
+          window.location.href = "./accueil-android.html";
+        });
+      }
+      
+      var popuplaFormationText = document.getElementById("popuplaFormationText");
+      if (popuplaFormationText) {
+        popuplaFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m-android.html";
+        });
+      }
+      
+      var popuptmoignagesText = document.getElementById("popuptmoignagesText");
+      if (popuptmoignagesText) {
+        popuptmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignages-android.html";
+        });
+      }
+      
+      var popupnosRfrencesText = document.getElementById("popupnosRfrencesText");
+      if (popupnosRfrencesText) {
+        popupnosRfrencesText.addEventListener("click", function (e) {
+          window.location.href = "./rfrences-android.html";
+        });
+      }
+      
+      var popupcontactezNousText = document.getElementById("popupcontactezNousText");
+      if (popupcontactezNousText) {
+        popupcontactezNousText.addEventListener("click", function (e) {
+          window.location.href = "./contact-android.html";
+        });
+      }
+      
+      var menu4Icon = document.getElementById("menu4Icon");
+      if (menu4Icon) {
+        menu4Icon.addEventListener("click", function () {
+          var popup = document.getElementById("menuBurgerContainer");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+  </body>
+</html>

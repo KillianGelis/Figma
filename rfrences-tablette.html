@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./rfrences-tablette.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rfrences-tablette-div">
+      <div class="rectangle-div40" data-scroll-to="rectangleRectangle4"></div>
+      <img class="arrow-8-icon" alt="" src="public/arrow-3@2x.png" /><img
+        class="arrow-9-icon1"
+        alt=""
+        src="public/arrow-31@2x.png"
+      /><img class="croix-icon8" alt="" src="public/croix@2x.png" /><img
+        class="maison-icon8"
+        alt=""
+        src="public/maison@2x.png"
+      /><img class="rectangle-icon14" alt="" src="public/rectangle-7.svg" />
+      <div class="rectangle-div41"></div>
+      <img class="loupe-icon8" alt="" src="public/loupe@2x.png" />
+      <div class="accueil-div8" id="accueilText">Accueil</div>
+      <div class="line-div18"></div>
+      <div class="line-div19"></div>
+      <div class="line-div20"></div>
+      <div class="line-div21"></div>
+      <div class="la-formation-div7" id="laFormationText">La formation</div>
+      <div class="tmoignages-div10" id="tmoignagesText">Témoignages</div>
+      <div class="nos-rfrences-div7" id="nosRfrencesText">Nos références</div>
+      <div class="contactez-nous-div7" id="contactezNousText">
+        Contactez-nous
+      </div>
+      <div class="ces-entreprises-nous-ont-fait">
+        Ces entreprises nous ont fait confiance
+      </div>
+      <div class="rectangle-div42"></div>
+      <div class="httpswwwformationdwwmafpa-div8">
+        https://www.formationDWWM.afpa.fr/References.html
+      </div>
+      <div class="rectangle-div43"></div>
+      <img class="polygon-icon" alt="" src="public/polygon-5.svg" /><img
+        class="polygon-icon1"
+        alt=""
+        src="public/polygon-5.svg"
+      /><img class="polygon-icon2" alt="" src="public/polygon-5.svg" /><img
+        class="polygon-icon3"
+        alt=""
+        src="public/polygon-5.svg"
+      /><img class="akka-icon" alt="" src="public/akka@2x.png" /><img
+        class="accenture-platinium-3-icon"
+        alt=""
+        src="public/accentureplatinium-3@2x.png"
+      /><img class="altran-2-icon" alt="" src="public/altran-2@2x.png" /><img
+        class="wisy-logo-2-icon"
+        alt=""
+        src="public/wisylogo-2@2x.png"
+      /><img
+        class="logo-afpa-vert-png-5-icon3"
+        alt=""
+        src="public/logoafpavertpng-5@2x.png"
+      />
+    </div>
+
+    <script>
+      var accueilText = document.getElementById("accueilText");
+      if (accueilText) {
+        accueilText.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var laFormationText = document.getElementById("laFormationText");
+      if (laFormationText) {
+        laFormationText.addEventListener("click", function (e) {
+          window.location.href = "./formation-d-w-w-m-tablette.html";
+        });
+      }
+      
+      var tmoignagesText = document.getElementById("tmoignagesText");
+      if (tmoignagesText) {
+        tmoignagesText.addEventListener("click", function (e) {
+          window.location.href = "./tmoignages-tablette.html";
+        });
+      }
+      
+      var nosRfrencesText = document.getElementById("nosRfrencesText");
+      if (nosRfrencesText) {
+        nosRfrencesText.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='rectangleRectangle4']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+      
+      var contactezNousText = document.getElementById("contactezNousText");
+      if (contactezNousText) {
+        contactezNousText.addEventListener("click", function (e) {
+          window.location.href = "./contact-tablette.html";
+        });
+      }
+      </script>
+  </body>
+</html>
